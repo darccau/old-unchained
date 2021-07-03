@@ -1,3 +1,64 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://darccau.github.io/"
+languageCode = "en-GB"
+title = "Darccau"
+theme = "hello-friend-ng"
+enableGitInfo   = true
+
+[markup]
+  [markup.highlight]
+    style = "native"
+    guessSyntax = true
+
+[permalinks]
+  posts = "/:title/"
+
+[author]
+  name = "Darccau"
+
+[params]
+  dateform        = "2 January 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0500"
+  disableReadOtherPosts = false
+  defaultTheme = "dark"
+  homeSubtitle = "Welcome"
+  contentTypeName = "posts"
+
+[languages]
+  [languages.en]
+    title = "Darccau"
+    subtitle = ""
+    keywords = ""
+    copyright = "<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>CC-BY 4.0</a>"
+    readOtherPosts = "← Prev | Read more | Next →"
+
+    [languages.en.params.logo]
+      logoText = "darccau~$"
+      logoHomeLink = "/"
+
+    [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+
+    [[menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "/about"
+
+    [[params.social]]
+      name = "email"
+      url  = "darccau@protonmail.com"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/darccau"
+
+    [[params.social]]
+      name = "linkedin"
+      url  = "https://www.linkedin.com/in/duardopx/"
+
+    [[params.social]]
+      name = "gpg"
+      url  = "pgp.key"
