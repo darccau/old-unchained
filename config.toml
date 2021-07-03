@@ -57,12 +57,12 @@ enableGitInfo   = true
       url  = "darccau@protonmail.com"
 
     [[params.social]]
-      name = "github"
-      url  = "https://github.com/darccau"
-
-    [[params.social]]
       name = "twitter"
       url  = "https://twitter/darccau"
+
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/darccau"
 
     [[params.social]]
       name = "linkedin"
