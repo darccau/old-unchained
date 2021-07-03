@@ -13,7 +13,7 @@ enableGitInfo   = true
   posts = "/:title/"
 
 [author]
-  name = "Darccau"
+  name = "darccau"
 
 [params]
   dateform        = "2 January 2006"
@@ -27,7 +27,7 @@ enableGitInfo   = true
 
 [languages]
   [languages.en]
-    title = "Darccau"
+    title = "Eduardo Paixão"
     subtitle = ""
     keywords = ""
     copyright = "<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>CC-BY 4.0</a>"
@@ -47,6 +47,11 @@ enableGitInfo   = true
       name       = "About"
       url        = "/about"
 
+    [[menu.main]]
+      identifier = "resume"
+      name       = "Resume"
+      url        = "/resume"
+
     [[params.social]]
       name = "email"
       url  = "darccau@protonmail.com"
@@ -54,6 +59,10 @@ enableGitInfo   = true
     [[params.social]]
       name = "github"
       url  = "https://github.com/darccau"
+
+    [[params.social]]
+      name = "twitter"
+      url  = "https://twitter/darccau"
 
     [[params.social]]
       name = "linkedin"
