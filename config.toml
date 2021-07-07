@@ -58,7 +58,7 @@ enableGitInfo   = true
 
     [[params.social]]
       name = "twitter"
-      url  = "https://twitter/darccau"
+      url  = "https://twitter.com/darccau"
 
     [[params.social]]
       name = "github"
