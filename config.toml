@@ -22,12 +22,12 @@ enableGitInfo   = true
   dateformNumTime = "2006-01-02 15:04 -0500"
   disableReadOtherPosts = false
   defaultTheme = "dark"
-  homeSubtitle = "Welcome"
+  homeSubtitle = "Here i'll talk about linux, cybersecurity and computer networks"
   contentTypeName = "posts"
 
 [languages]
   [languages.en]
-    title = "Eduardo Paixão"
+    title = "Darccau"
     subtitle = ""
     keywords = ""
     copyright = "<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>CC-BY 4.0</a>"
