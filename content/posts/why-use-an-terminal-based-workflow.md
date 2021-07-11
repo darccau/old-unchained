@@ -4,9 +4,6 @@ date: 2021-07-07T20:03:02-03:00
 layout: Exploitation
 draft: true
 ---
-sysadmins
-devops
-devs
 
 ## Introduction
 
