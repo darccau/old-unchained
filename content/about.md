@@ -9,7 +9,7 @@ at Universidade Federal do Rio Grande do Norte, focusing on cyber security and
 computer networks.
 
 I am also formed as a network technician, this allowed me to work with network
-infrastructure at [SINFO](https://info.ufrn.br/) performing N1 support and
+infrastructure at [STI](https://info.ufrn.br/) performing N1 support and
 solving network tasks. I currently work at the same company, but now at the
 [Security Incident Response and Treatment Center](https://cetris.ufrn.br/)
 where I perform offensive security tests, infraestructure impruvement and
