@@ -5,41 +5,55 @@ layout: Exploitation
 draft: true
 ---
 
-## Introduction
+## Justification
 
-My friends frequently asking me "why you use terminal as a place to
-development ?" this question motivate me to write about so many peaple prefer
-works on terminal than in a graphical user interface(GUI).
+yeah yeah this post is anwser for some friends that asking me "why you work
+on terminal?" this question motivate me to write about the beneffits of
+works on terminal than using graphical user interfaces(GUI) and a I'll show
+some tools that will improve your expirience on linux terminal.
 
-## Extensibility
+## Why terminal
 
 At the Beginning, we need to remenber the linux philosophy of extensibility.
-Once we are using an command line interface(CLI) tool on linux, we can
-integrate them with another allowing an developer create an intrincated chain
-of commands to perform an actions and also can create another chain of commands
-to filer the first one output.
+Once we are using command line interface(CLI) tools, we can integrate them with
+another allowing an developer create an intrincated chain of commands to
+perform an actions and also can create another chain of commands to filter the
+first one output.
 
-This kind of integration allow an developer that know what they are doing
+This kind of integration allow an developer that knows what they are doing
 automate various tasks that in an GUI wouldn't be possible due to its
 inflexibility.
 
-## Organization
+For a better understandment, i'll ilustrate what i'm talking about with an
+example. Supose that you want to delete 1000... directorys of your pc with an
+predefined pattern, you can do it with:
+```
+rm -rf $(ls | egrep pattern)
+```
+* rm -rf -> remove all passed directorys
+* $()   -> subshell that will execute the command between the parenteses and send to command out of them.
+* ls    -> list all directoris
+* |     -> send the output of an command to another
+* egrep -> will receive an input and and show parts of this input based on predefined pattern 
+
+ps: It's definitivly not a better way to remove directoris, it's just to show the versatility of shell commands
+
+## Terminal Organization
 
 In my opinion, it's one of the best points of working completetly on terminal.
-multiple terminal emulator or even another programs can split the terminal main
+multiple terminal emulator or even another programs that can split the terminal main
 window in multiple little terminals allowing one better visualization of
-multiple tasks beeing performed at the same time.
+multiple tasks beeing performed at the same time. The gretest example of it is
+the tmux that divide de terminal in sessions, panes and sessions as show
+bellow:
 
-In my opinion, the gretest example of it is the tmux that until divide de
-terminal in sessions, panes and sessions as show bellow:
-
-![tmux split screen](~/Pictures/logo.jpg)
+<!-- ![tmux split screen](images/logo.jpg) -->
 It' split terminal window, allow multiple terminal in the same window.
 
-![tmux panes](~/Pictures/tmux_sessions.png)
+<!-- ![tmux panes](images/tmux_sessions.png) -->
 Create new terminal window outside of the first one.
 
-![tmux sessions](~/Pictures/tmux_sessions.png)
+<!-- ![tmux sessions](/images/tmux_sessions.png) -->
 Create sessions that comport the panes and splits above mentioned.
 
 ## Text edition
@@ -54,6 +68,10 @@ more familiarity. **VI** is present by default in the biggest linux
 distributions, it's knowed to be much efficient during write process due 
 keybindins configurations that allow an development processes without the use o
 mouse and custom movimentation. Even work on terminal the lastest version of this 
-family of editors can use the most recently plugins of the GUI editors using 
-the lSP servers.
+editors family can use the most recently plugins that GUI editors are using.
+
+
+# Tasks Management
+For managin tasks, i chose an tool called "taskwarrior", this allow me schedule
+my weekly tasks.
 
